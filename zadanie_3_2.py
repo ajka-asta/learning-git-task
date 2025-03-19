@@ -1,7 +1,7 @@
 print("Zadanie 1")
 print("Lista zakupów")
 shopping_dict = {
-    "piekarnia" : ["chleb", "bułki", "pączek"],
+    "piekarnia" : ["chleb", "bułki", "pączek", "precel"],
     "warzywniak" : ["marchew", "seler", "rukola"]
 }
 for shop, products in shopping_dict.items():
