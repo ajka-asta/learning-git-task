@@ -9,3 +9,4 @@ for shop, products in shopping_dict.items():
     print(f"Idę do {shop.capitalize()} i kupuję tam: {products}.")
 total = sum(len(products) for products in shopping_dict.values())
 print("W sumie kupuję", total, "produktów.")
+print()
